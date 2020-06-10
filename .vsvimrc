@@ -1,7 +1,7 @@
 set ignorecase
 set clipboard=unnamed
 set hlsearch
-
+set relativenumber
 
 "nmap zcc :mapclear!<CR>
 nmap zso :so ~\fastKeySetting\.vsvimrc<CR>
