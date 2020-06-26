@@ -72,8 +72,9 @@ nmap ,m :vsc ReSharper.ReSharper_GotoFileMember<CR>
 nmap ,, :vsc ReSharper.ReSharper_GotoText<CR>
 nmap zf :vsc ReSharper.ReSharper_GoToDeclaration<CR>:vsc EditorContextMenus.CodeWindow.Navigate.ReSharper_NavigateToParameter<CR>
 imap zf <Esc>:vsc ReSharper.ReSharper_GoToDeclaration<CR>:vsc EditorContextMenus.CodeWindow.Navigate.ReSharper_NavigateToParameter<CR>
-nmap gi :vsc Resharper.Resharper_GotoImplementation<CR>
+nmap gi :vsc ReSharper.ReSharper_GotoImplementations<CR>
 nmap gu :vsc ReSharper.ReSharper_GotoUsage<CR>
+nmap gp :vsc ReSharper.ReSharper_GotoBase<CR>
 
 "nmap gp :vsc EditorContextMenus.CodeWindow.Navigate.ReSharper_NavigateToParameter<CR>
 
