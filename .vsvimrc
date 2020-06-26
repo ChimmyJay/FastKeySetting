@@ -69,8 +69,11 @@ nmap zcs :vsc ReSharper.ReSharper_ChangeSignature<CR>
 nmap zpm :vsc ReSharper.ReSharper_PasteMultiple<CR>
 imap zpm <Esc>:vsc ReSharper.ReSharper_PasteMultiple<CR>
 nmap ,m :vsc ReSharper.ReSharper_GotoFileMember<CR>
+nmap ,, :vsc ReSharper.ReSharper_GotoText<CR>
 nmap zf :vsc ReSharper.ReSharper_GoToDeclaration<CR>:vsc EditorContextMenus.CodeWindow.Navigate.ReSharper_NavigateToParameter<CR>
 imap zf <Esc>:vsc ReSharper.ReSharper_GoToDeclaration<CR>:vsc EditorContextMenus.CodeWindow.Navigate.ReSharper_NavigateToParameter<CR>
+nmap gi :vsc Resharper.Resharper_GotoImplementation<CR>
+nmap gu :vsc ReSharper.ReSharper_GotoUsage<CR>
 
 "nmap gp :vsc EditorContextMenus.CodeWindow.Navigate.ReSharper_NavigateToParameter<CR>
 
@@ -113,6 +116,7 @@ imap z,P <Esc>"0Pa
 :nmap zaa ca"
 :nmap zxx ci]
 :vmap <Esc> <Esc><Esc><Esc>
+:vmap gd <Esc><Esc><Esc>gd
 :imap jj <Esc>
 :nmap <BS> a<BS>
 :nmap zh ^
