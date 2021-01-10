@@ -50,6 +50,7 @@ nmap gwf :vsc View.FullScreen<CR>
 imap zae Assert.AreEqual(expected,actual);<Esc>T(
 nmap zae aAssert.AreEqual(expected,actual);<Esc>T(
 
+nmap zrd :vsc ReSharper.ReSharper_RefactorThis<CR>
 
 nmap zrr :vsc ReSharper.ReSharper_Rename<CR><Esc>
 nmap zrm :vsc ReSharper.ReSharper_ExtractMethod<CR><Esc>
