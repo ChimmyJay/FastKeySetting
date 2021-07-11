@@ -14,13 +14,13 @@ nmap <F2> y?[Fact<CR>p/public<CR>$B
 nmap zm :vsc ReSharper.ReSharper_ReformatCode<CR>:make<CR>
 nmap gt :vsc TestExplorer.ShowTestExplorer<CR>
 
-nmap zra :vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
-imap zra <Esc>:vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
-vmap zra <Esc><Esc>:vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+"nmap zra :vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+"imap zra <Esc>:vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+"vmap zra <Esc><Esc>:vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
 
-"nmap zra :vsc ReSharper.ReSharper_SilentCleanupCode<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
-"imap zra <Esc>:vsc ReSharper.ReSharper_SilentCleanupCode<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
-"vmap zra <Esc><Esc>:vsc ReSharper.ReSharper_SilentCleanupCode<CR>:vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+nmap zra :vsc ReSharper.ReSharper_SilentCleanupCode<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+imap zra <Esc>:vsc ReSharper.ReSharper_SilentCleanupCode<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+vmap zra <Esc><Esc>:vsc ReSharper.ReSharper_SilentCleanupCode<CR>:vsc CodeMaid.CleanupActiveDocument<CR>zz:vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
 
 "nmap zra zz:vsc CodeMaid.CleanupActiveDocument<CR>:vsc TestExplorer.RunAllTests<CR>:vsc TestExplorer.ShowTestExplorer<CR>
 "imap zra <Esc>zz:vsc CodeMaid.CleanupActiveDocument<CR>make<CR>:vsc TestExplorer.RunAllTests<CR>:vsc TestExplorer.ShowTestExplorer<CR>
